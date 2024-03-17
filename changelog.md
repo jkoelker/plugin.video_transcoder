@@ -1,4 +1,7 @@
 
+**<span style="color:#56adda">0.1.4</span>**
+- add nvenc av1 encoder
+
 **<span style="color:#56adda">0.1.3</span>**
 - fix nvenc 10 bit profile name
 

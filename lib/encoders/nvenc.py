@@ -26,6 +26,7 @@ Notes:
     - Listing available encoder options:
         ffmpeg -h encoder=h264_nvenc
         ffmpeg -h encoder=hevc_nvenc
+        ffmpeg -h encoder=av1_nvenc
 """
 import logging
 import re
@@ -102,6 +103,10 @@ class NvencEncoder:
             "hevc_nvenc": {
                 "codec": "hevc",
                 "label": "NVENC - hevc_nvenc",
+            },
+            "av1_nvenc": {
+                "codec": "av1",
+                "label": "NVENC - av1_nvenc",
             },
         }
 
